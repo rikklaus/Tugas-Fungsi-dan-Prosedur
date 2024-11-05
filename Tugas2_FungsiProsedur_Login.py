@@ -19,6 +19,7 @@ def tampilkan_pesan_akses_ditolak():
 
 def login():
     print("Silakan Login")
+    print("Login dengan 3 Kesempatan")
     
     for kesempatan in range(3, 0, -1):
         username = input("Username: ")
