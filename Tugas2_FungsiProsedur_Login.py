@@ -2,9 +2,6 @@
 # Kelas: 1A
 # NIM: 2400887
 
-def cek_username(username):
-    return username == "Daspro2023"
-
 def cek_password(password):
     return password == "latihan"
 
@@ -25,7 +22,7 @@ def login():
         username = input("Username: ")
         password = input("Password: ")
         
-        if cek_username(username) and cek_password(password):
+        if cek_password(password):
             tampilkan_pesan_berhasil()
             break
         else:
